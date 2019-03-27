@@ -1,0 +1,5 @@
+Web server has started.
+Please log on http://127.0.0.1:3001/index.html
+insert into users(account,name,gender,avatar,gems,is_dealer,created_at,id) values(?,?,?,?,?,?,?,?)
+ER_BAD_NULL_ERROR: Column 'avatar' cannot be null
+Error at Data.createModel:ER_BAD_NULL_ERROR: Column 'avatar' cannot be null

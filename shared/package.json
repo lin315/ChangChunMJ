@@ -1,0 +1,10 @@
+{
+  "name": "NanyueServer",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "@alicloud/sms-sdk": "^1.0.2",
+    "mysql": "2.13.0",
+    "redis": "2.7.1"
+  }
+}

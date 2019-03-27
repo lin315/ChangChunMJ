@@ -1,0 +1,30 @@
+{
+  "development":{
+    "gate": [
+      {"id": "gate-server-1", "host": "192.168.0.110", "port": 5000, "clientHost": "192.168.0.110", "clientPort": 4000, "frontend": true}
+    ],
+    "connector": [
+      {"id": "connector-server-1", "host": "192.168.0.110", "port": 5100, "clientHost": "192.168.0.110", "clientPort": 4100, "frontend": true, "args": " --inspect=33000 "}
+    ],
+    "hall": [
+      {"id": "hall-server-1", "host": "192.168.0.110", "port": 5200, "clientPort": 4200, "frontend": false, "args": " --inspect=33001 "}
+    ],
+    "game": [
+      {"id": "game-server-1", "host": "192.168.0.110", "port": 5300, "clientPort": 4300, "frontend": false, "args": " --inspect=33002 "}
+    ]
+  },
+  "production":{
+    "gate": [
+      {"id": "gate-server-1", "host": "192.168.0.110", "port": 5000, "clientHost": "192.168.0.110", "clientPort": 4000, "frontend": true}
+    ],
+    "connector": [
+      {"id": "connector-server-1", "host": "192.168.0.110", "port": 5100, "clientHost": "192.168.0.110", "clientPort": 4100, "frontend": true}
+    ],
+    "hall": [
+      {"id": "hall-server-1", "host": "192.168.0.110", "port": 5200, "clientPort": 4200, "frontend": false}
+    ],
+    "game": [
+      {"id": "game-server-1", "host": "192.168.0.110", "port": 5300, "clientPort": 4300, "frontend": false}
+    ]
+  }
+}
